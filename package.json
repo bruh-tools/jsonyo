@@ -1,0 +1,24 @@
+{
+  "name": "jsonyo",
+  "version": "1.0.0",
+  "description": "JSON swiss army knife. validate, format, query. bruh.",
+  "main": "index.js",
+  "bin": {
+    "jsonyo": "./bin/jsonyo.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["json", "validate", "format", "pretty", "minify", "cli", "developer-tools"],
+  "author": "bruh.tools <hello@bruh.tools> (https://bruh.tools)",
+  "license": "MIT",
+  "homepage": "https://bruh.tools/jsonyo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bruh-tools/jsonyo"
+  },
+  "bugs": {
+    "url": "https://bruh.tools/jsonyo/issues",
+    "email": "support@bruh.tools"
+  }
+}
