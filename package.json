@@ -1,15 +1,34 @@
 {
   "name": "jsonyo",
-  "version": "1.0.0",
-  "description": "JSON swiss army knife. validate, format, query. bruh.",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "JSON swiss army knife. validate, format, convert, generate types. bruh.",
+  "main": "src/index.js",
   "bin": {
     "jsonyo": "./bin/jsonyo.js"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "start": "node bin/jsonyo.js"
   },
-  "keywords": ["json", "validate", "format", "pretty", "minify", "cli", "developer-tools"],
+  "keywords": [
+    "json",
+    "validate",
+    "format",
+    "pretty",
+    "minify",
+    "cli",
+    "developer-tools",
+    "yaml",
+    "toml",
+    "csv",
+    "typescript",
+    "schema",
+    "query",
+    "jsonpath",
+    "diff",
+    "merge",
+    "flatten"
+  ],
   "author": "bruh.tools <hello@bruh.tools> (https://bruh.tools)",
   "license": "MIT",
   "homepage": "https://bruh.tools/jsonyo",
@@ -18,7 +37,15 @@
     "url": "https://github.com/bruh-tools/jsonyo"
   },
   "bugs": {
-    "url": "https://bruh.tools/jsonyo/issues",
+    "url": "https://github.com/bruh-tools/jsonyo/issues",
     "email": "support@bruh.tools"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^10.3.0",
+    "chokidar": "^3.5.3"
   }
 }
